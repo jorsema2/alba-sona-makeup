@@ -1,0 +1,154 @@
+.header-body {
+    border-bottom: none !important;
+    background-color: #84697b !important;
+
+}
+
+.testimonial-author img {
+    margin-bottom: 0 !important;
+    max-height: 80px !important;
+    max-width: 80px !important;
+}
+
+.dropdown-menu-override {
+    padding: 0 !important;
+}
+
+.dropdown-item-override:hover {
+    background-color: #84697b !important;
+}
+
+@media only screen and (max-width: 991px) {
+
+    .nav-link.active,
+    .dropdown-item.active {
+        background: #84697b !important;
+    }
+}
+
+.hidden {
+    display: none;
+}
+
+.text-transform-none {
+    transform: none;
+}
+
+.default-color {
+    color: var(--default);
+}
+
+.bg-brand-color {
+    background-color: var(--brand-dark-purple) !important;
+    color: var(--light) !important;
+    border-color: var(--brand-dark-purple) !important;
+}
+
+.cta {
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: none;
+}
+
+.cta:hover {
+    background-color: #84697b !important;
+    color: var(--light) !important;
+}
+
+.map-container {
+    padding-right: 0;
+    padding-left: 20px;
+}
+
+.parallax .owl-stage {
+    display: flex;
+    align-items: center;
+}
+
+.testimonial.testimonial-with-quotes blockquote:before,
+.testimonial.testimonial-with-quotes blockquote:after {
+    opacity: 0;
+}
+
+.owl-carousel.nav-style-2 .owl-nav .owl-next:after,
+.owl-carousel.nav-style-2 .owl-nav .owl-prev:after {
+    transform: translate3d(-1px, -50%, 0);
+}
+
+.text-shadow-purple {
+    text-shadow: 1px 1px 1px #705567;
+}
+
+@media screen and (min-width: 1600px) {
+    .bride-process {
+        background-image: url('../assets/maquilladora-maquillando-clienta-foto-grande.webp') !important;
+    }
+
+    .studio-working {
+        background-image: url('../assets/maquilladora-maquillando-clienta-foto-grande.webp') !important;
+    }
+
+    .professional-result-image {
+        background-image: url('../assets/mujer-invitada-evento-maquillada-foto-grande.webp') !important;
+    }
+
+    .glitter-bar-kid {
+        background-image: url('../assets/chiquilla-glitter-bar-valencia-foto-grande.webp') !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .bride-hero-image {
+        background-image: url('../assets/novia-maquillada-con-novio-durante-casamiento-caras-serias-vertical.webp') !important;
+    }
+
+    .studio-photo {
+        background-image: url('../assets/estudio-de-maquillaje-profesional-valencia-vertical.webp') !important;
+    }
+
+    .studio-working {
+        background-image: url('../assets/maquilladora-maquillando-clienta-vertical.webp') !important;
+    }
+
+    .home-hero {
+        background-image: url('../assets/mujer-maquillaje-invitada-posando-tocando-barbilla.webp') !important;
+    }
+
+    .invited-hero {
+        background-image: url('../assets/mujer-maquillada-invitada-evento-valencia.webp') !important;
+    }
+
+    .beauty-party-hero-section {
+        background-image: url('../assets/beauty-party-valencia-mujer-pinta-labio.webp') !important;
+    }
+
+    .glitter-bar-hero {
+        background-image: url('../assets/glitter-bar-mujer-bebiendo-maquillada.webp') !important;
+    }
+
+    .glitter-bar-section-1 {
+        background-image: url('../assets/glitter-bar-mujer-valencia-3.webp') !important;
+    }
+
+    .glitter-bar-kid {
+        background-image: url('../assets/chiquilla-glitter-bar-valencia-vertical.webp') !important;
+    }
+
+    .map-container {
+        padding: 0 20px;
+    }
+
+    .center-cta-phone {
+        display: block !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .bride-service-benefits {
+        background-image: url('../assets/novia-maquillada-con-novio-en-boda-sonriendo-vertical.webp') !important;
+    }
+
+    .beauty-party-girl-makeup {
+        background-image: url('../assets/beauty-party-mujer-maquillando-vertical-valencia.webp') !important;
+    }
+}
